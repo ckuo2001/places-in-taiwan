@@ -18,26 +18,27 @@ h1 {
 
 img {
   margin-top: 10px;
+  margin-bottom: 10px;
   border: 10px solid white;
   width: 85%;
 }
 
-/*#input {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-evenly;
-}*/
-
 #all-places {
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   background-color: white;
-  /*flex-grow: 1;*/
+  border: 10px solid white;
+  border-radius: 10px;
 }
 
 #city {
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   background-color: white;
-  /*flex-grow: 1;*/
+  border: 10px solid white;
+  border-radius: 10px;
 }
