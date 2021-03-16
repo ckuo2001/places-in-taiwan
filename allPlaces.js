@@ -55,6 +55,9 @@
       namePara.textContent = response[i].Name;
       let desPara = document.createElement("p");
       desPara.textContent = response[i].Description;
+      if (desPara.textContent === "") {
+        desPara.textContent = response[i].DescriptionDetail;
+      }
 
       place.appendChild(namePara);
       place.appendChild(desPara);

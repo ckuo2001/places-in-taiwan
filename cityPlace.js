@@ -64,6 +64,9 @@
 
       namePara.textContent = name;
       desPara.textContent = description;
+      if (desPara.textContent === "") {
+        desPara.textContent = response[i].DescriptionDetail;
+      }
 
       place.appendChild(namePara);
       place.appendChild(desPara);
